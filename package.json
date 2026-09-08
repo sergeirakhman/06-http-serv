@@ -1,0 +1,15 @@
+{
+  "name": "06-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env http-text.js",
+    "dev-text": "node --watch --env-file=.env http-text.js",
+    "dev-json": "node --watch --env-file=.env http-json.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
